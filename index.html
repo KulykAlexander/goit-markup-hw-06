@@ -433,7 +433,23 @@
         </button>
         <form action="">
           <h3 class="form-titel titel">Залиште свої дані, ми вам передзвонимо</h3>
-          
+          <label for="name">Ім'я</label>
+          <input type="text" name="name" id="name">
+
+          <label for="phone_number">Телефон</label>
+          <input type="tel" name="phone_number" id="phone_number">
+
+          <label for="email">Пошта</label>
+          <input type="email" name="email" id="email">
+
+          <label for="text">Коментар</label>
+          <textarea name="text" rows="5" placeholder="Введіть текс" id="text"></textarea>
+
+          <input type="checkbox" name="accord" value="accord" />
+            Погоджуюся з розсилкою та приймаю Умови договору
+          </label>
+
+          <button type="submit">Відправити</button>
         </form>
       </div>
     </div>
