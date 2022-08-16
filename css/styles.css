@@ -720,3 +720,30 @@ body {
 
     color: var(--main-color);
 }
+.modal-form-field {
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    resize: none;
+}
+
+.modal-form-btn {
+    display: block;
+    
+    text-align: center;
+        
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    min-width: 200px;
+    
+    padding: 10px 52px;
+    margin: 0 auto;
+
+    color: var(--third-color);
+    background: var(--accent-color);
+    border-radius: 4px;
+}
