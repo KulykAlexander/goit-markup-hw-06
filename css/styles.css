@@ -707,3 +707,16 @@ body {
     visibility: hidden;
     pointer-events: none;
 }
+.modal-form {
+    width: 528px;
+    height: 581px;
+    padding: 40px;
+}
+.modal-form-titel {
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-color);
+}
