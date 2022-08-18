@@ -713,6 +713,7 @@ body {
     padding: 40px;
 }
 .modal-form-titel {
+    margin-bottom: 12px;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
@@ -749,6 +750,15 @@ body {
 }
 textarea {
     resize: none;
+    
+    padding: 14px 15px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+textarea::placeholder {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
 }
 
 .modal-form-btn {
