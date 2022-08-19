@@ -537,7 +537,15 @@ body {
 .footer-soc-icon {
     fill: currentColor;
 }
-
+.footer-mailing {
+    width: 570px;
+    height: 86px;
+}
+.footer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 /*PORTFOLIO*/
