@@ -597,6 +597,9 @@ body {
     letter-spacing: 0.06em;
 }
 .send-icon {
+    color: var(--third-color);
+}
+.send {
     fill: currentColor;
 }
 /*PORTFOLIO*/
