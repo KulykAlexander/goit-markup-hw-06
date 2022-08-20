@@ -480,9 +480,14 @@
             <textarea name="coment" rows="5" placeholder="Введіть текст" id="coment"></textarea>
           </div>
           
-          <div class="modal-form-field">
-            <input type="checkbox" name="policy" value="policy" id="policy" required />
-            <label for="policy">Погоджуюся з розсилкою та приймаю <a href="" target="_blank" rel="noopener noreferrer nofollow">Умови договору</a></label>
+          <div class="modal-form-check">
+            <input class="input-check visually-hidden" type="checkbox" name="policy" value="policy" id="policy" required />
+            <label for="policy" class="check-text text">
+              <span>
+                <svg class="check-icon" width="16" height="15">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>Погоджуюся з розсилкою та приймаю <a href="" class="modal-link link" target="_blank" rel="noopener noreferrer nofollow">Умови договору</a></label>
           </div>
           
 
